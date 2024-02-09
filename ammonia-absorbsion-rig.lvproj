@@ -13,6 +13,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Bronkhorst FLOW-BUS.lvlib" Type="Library" URL="../bronkhorst_flow-bus/Bronkhorst FLOW-BUS/Bronkhorst FLOW-BUS.lvlib"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="state-machine-states.ctl" Type="VI" URL="../state-machine-states.ctl"/>
+		<Item Name="tab-control-states.ctl" Type="VI" URL="../tab-control-states.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
