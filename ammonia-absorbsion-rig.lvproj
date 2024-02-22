@@ -12,6 +12,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Bronkhorst FLOW-BUS.lvlib" Type="Library" URL="../bronkhorst_flow-bus/Bronkhorst FLOW-BUS/Bronkhorst FLOW-BUS.lvlib"/>
+		<Item Name="build-filepath.vi" Type="VI" URL="../sub-vi/csv-file-logging/build-filepath.vi"/>
+		<Item Name="csv-log-data-headings.vi" Type="VI" URL="../sub-vi/csv-file-logging/csv-log-data-headings.vi"/>
 		<Item Name="data-logging-test.vi" Type="VI" URL="../data-logging-test.vi"/>
 		<Item Name="main.vi-simplified.vi" Type="VI" URL="../main.vi-simplified.vi"/>
 		<Item Name="state-machine-states.ctl" Type="VI" URL="../state-machine-states.ctl"/>
