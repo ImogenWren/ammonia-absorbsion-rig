@@ -11,15 +11,23 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="csv-logging" Type="Folder">
+			<Item Name="build-filepath.vi" Type="VI" URL="../sub-vi/csv-file-logging/build-filepath.vi"/>
+			<Item Name="csv-log-data-headings.vi" Type="VI" URL="../sub-vi/csv-file-logging/csv-log-data-headings.vi"/>
+			<Item Name="csv-log-data.vi" Type="VI" URL="../sub-vi/csv-file-logging/csv-log-data.vi"/>
+			<Item Name="data-logging-example.vi" Type="VI" URL="../sub-vi/csv-file-logging/data-logging-example.vi"/>
+			<Item Name="enable-ui-element.vi" Type="VI" URL="../sub-vi/csv-file-logging/enable-ui-element.vi"/>
+			<Item Name="no-so-random-data-array-generator.vi" Type="VI" URL="../sub-vi/no-so-random-data-array-generator.vi"/>
+		</Item>
+		<Item Name="average-loop-time.vi" Type="VI" URL="../sub-vi/average-loop-time.vi"/>
 		<Item Name="Bronkhorst FLOW-BUS.lvlib" Type="Library" URL="../bronkhorst_flow-bus/Bronkhorst FLOW-BUS/Bronkhorst FLOW-BUS.lvlib"/>
-		<Item Name="build-filepath.vi" Type="VI" URL="../sub-vi/csv-file-logging/build-filepath.vi"/>
-		<Item Name="csv-log-data-headings.vi" Type="VI" URL="../sub-vi/csv-file-logging/csv-log-data-headings.vi"/>
-		<Item Name="data-logging-test.vi" Type="VI" URL="../data-logging-test.vi"/>
+		<Item Name="filepath-selection.ctl" Type="VI" URL="../sub-vi/csv-file-logging/filepath-selection.ctl"/>
 		<Item Name="main.vi-simplified.vi" Type="VI" URL="../main.vi-simplified.vi"/>
 		<Item Name="state-machine-states.ctl" Type="VI" URL="../state-machine-states.ctl"/>
 		<Item Name="tab-control-states.ctl" Type="VI" URL="../tab-control-states.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
 				<Item Name="DAQmx Create Channel (AI-Acceleration-4 Wire DC Voltage).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Acceleration-4 Wire DC Voltage).vi"/>
@@ -167,18 +175,14 @@
 				<Item Name="DAQmx Read (Raw 1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D U32).vi"/>
 				<Item Name="DAQmx Read.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
 				<Item Name="DAQmx Stop Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Stop Task.vi"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
-				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
-				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
-				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
-				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="no-so-random-data-array-generator.vi" Type="VI" URL="../sub-vi/csv-file-logging/no-so-random-data-array-generator.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="ammonia-absorbsion-V0.9-alpha" Type="EXE">
