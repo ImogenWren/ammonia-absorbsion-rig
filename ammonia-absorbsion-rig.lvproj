@@ -17,8 +17,8 @@
 			<Item Name="csv-log-data.vi" Type="VI" URL="../sub-vi/csv-file-logging/csv-log-data.vi"/>
 			<Item Name="data-logging-example.vi" Type="VI" URL="../sub-vi/csv-file-logging/data-logging-example.vi"/>
 			<Item Name="enable-ui-element.vi" Type="VI" URL="../sub-vi/csv-file-logging/enable-ui-element.vi"/>
-			<Item Name="no-so-random-data-array-generator.vi" Type="VI" URL="../sub-vi/no-so-random-data-array-generator.vi"/>
 		</Item>
+		<Item Name="ammonia.ico" Type="Document" URL="../icon/ammonia.ico"/>
 		<Item Name="average-loop-time.vi" Type="VI" URL="../sub-vi/average-loop-time.vi"/>
 		<Item Name="Bronkhorst FLOW-BUS.lvlib" Type="Library" URL="../bronkhorst_flow-bus/Bronkhorst FLOW-BUS/Bronkhorst FLOW-BUS.lvlib"/>
 		<Item Name="filepath-selection.ctl" Type="VI" URL="../sub-vi/csv-file-logging/filepath-selection.ctl"/>
@@ -225,6 +225,53 @@
 				<Property Name="TgtF_productName" Type="Str">ammonia-absorbsion-V0.9-alpha</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{0104C58E-A2FA-41BD-9EF9-8D56156AE982}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="version1.2.2" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{89BB31A1-44DD-4173-9A4C-13088978323A}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{5E4DE462-8851-4AF6-B421-AFF67FCF4BAF}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{3F7685C6-DBA3-48A2-A12E-A03D4C8C6669}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">version1.2.2</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../version1.2.2</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{911FCCE0-4345-4A19-B17D-64F0590AEE35}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Ammonia Absorbsion Rig.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../version1.2.2/Ammonia Absorbsion Rig.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../version1.2.2/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ammonia.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D507647D-BF55-4747-83B0-52F709F21FE2}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi-simplified.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/flow-percent-volume-flow.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">The University of Edinburgh King's Buildings Campus</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">version1.2.2</Property>
+				<Property Name="TgtF_internalName" Type="Str">version1.2.2</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 The University of Edinburgh King's Buildings Campus</Property>
+				<Property Name="TgtF_productName" Type="Str">version1.2.2</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{1A1394FB-A483-45F1-91F2-6468A22C2B3F}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Ammonia Absorbsion Rig.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
