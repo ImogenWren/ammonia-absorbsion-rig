@@ -22,6 +22,7 @@
 		<Item Name="average-loop-time.vi" Type="VI" URL="../sub-vi/average-loop-time.vi"/>
 		<Item Name="Bronkhorst FLOW-BUS.lvlib" Type="Library" URL="../bronkhorst_flow-bus/Bronkhorst FLOW-BUS/Bronkhorst FLOW-BUS.lvlib"/>
 		<Item Name="filepath-selection.ctl" Type="VI" URL="../sub-vi/csv-file-logging/filepath-selection.ctl"/>
+		<Item Name="flow-percent-volume-flow.vi" Type="VI" URL="../sub-vi/flow-percent-volume-flow.vi"/>
 		<Item Name="main.vi-simplified.vi" Type="VI" URL="../main.vi-simplified.vi"/>
 		<Item Name="state-machine-states.ctl" Type="VI" URL="../state-machine-states.ctl"/>
 		<Item Name="tab-control-states.ctl" Type="VI" URL="../tab-control-states.ctl"/>
