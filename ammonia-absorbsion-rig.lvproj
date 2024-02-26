@@ -19,6 +19,7 @@
 			<Item Name="enable-ui-element.vi" Type="VI" URL="../sub-vi/csv-file-logging/enable-ui-element.vi"/>
 			<Item Name="no-so-random-data-array-generator.vi" Type="VI" URL="../sub-vi/no-so-random-data-array-generator.vi"/>
 		</Item>
+		<Item Name="average-loop-time.vi" Type="VI" URL="../sub-vi/average-loop-time.vi"/>
 		<Item Name="Bronkhorst FLOW-BUS.lvlib" Type="Library" URL="../bronkhorst_flow-bus/Bronkhorst FLOW-BUS/Bronkhorst FLOW-BUS.lvlib"/>
 		<Item Name="filepath-selection.ctl" Type="VI" URL="../sub-vi/csv-file-logging/filepath-selection.ctl"/>
 		<Item Name="main.vi-simplified.vi" Type="VI" URL="../main.vi-simplified.vi"/>
@@ -178,14 +179,10 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
-			<Item Name="build-filepath.vi" Type="VI" URL="../sub-vi/csv-file-logging/sub-vi/csv-file-logging/build-filepath.vi"/>
-			<Item Name="csv-log-data-headings.vi" Type="VI" URL="../sub-vi/csv-file-logging/sub-vi/csv-file-logging/csv-log-data-headings.vi"/>
-			<Item Name="csv-log-data.vi" Type="VI" URL="../sub-vi/csv-file-logging/sub-vi/csv-file-logging/csv-log-data.vi"/>
-			<Item Name="enable-ui-element.vi" Type="VI" URL="../sub-vi/csv-file-logging/sub-vi/csv-file-logging/enable-ui-element.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="no-so-random-data-array-generator.vi" Type="VI" URL="../sub-vi/csv-file-logging/sub-vi/no-so-random-data-array-generator.vi"/>
+			<Item Name="no-so-random-data-array-generator.vi" Type="VI" URL="../sub-vi/csv-file-logging/no-so-random-data-array-generator.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="ammonia-absorbsion-V0.9-alpha" Type="EXE">
