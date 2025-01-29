@@ -1,11 +1,11 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="23008000">
+<Library LVVersion="24008000">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.Lib.DefaultMenu" Type="Str">dir.mnu</Property>
 	<Property Name="NI.Lib.Description" Type="Str">LabVIEW Plug and Play instrument driver for Bronkhorst Mass Flow Controllers and Meters using the FLOW-BUS protocol.</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*7!!!*Q(C=\:1^&lt;BN"$%9`"3H3KF&gt;B[1K]1!K&gt;))"/9)"85'OEM:IULMQG"V#:6F=A-!=Q&gt;!76#[23XH,(BAU96B-$#?!:=8]_=MCX-[/2KHW20ON]K1VD;]/Q'&amp;ZLE\_V.CQ7`7'I8WPV80YWPF&lt;!Z+J\7@F&lt;GW))G-;X^M*`;@SL^6`YX_,8G_X$`_(`P`U8'D%X&amp;Y0?O5GT)M53#]QRK[]\*XKC*XKC*XKC"XKA"XKA"XKA/\KD/\KD/\KD'\KB'\KB'\KB6U=8ON#&amp;TKQER:.#3&gt;)E12)-CJ*,QJ0Q*$Q*$[^+?"+?B#@B38A)5=+4]#1]#5`#QT!F0!F0QJ0Q*$SE+J+MDAZ0QE.["4Q"4]!4]!1]F&amp;4!%Q!%R9,%12)Q&amp;$C$BY!HY!FY?&amp;4!%`!%0!&amp;0Q).&lt;!5`!%`!%0!%01WJ7IGD'DAY0;?4Q/$Q/D]0D]*";$I`$Y`!Y0!Y0Z?4Q/$Q/B&amp;0131[#H%&amp;/A00C]$A]X/4Q/$Q/D]0D]/#K&amp;@+;G:&amp;G\/DQ'$Q'D]&amp;D]"A]J*$"9`!90!;0Q5.;'4Q'D]&amp;D]"A]F*,"9`!90!;)5:4S-J):!YUA1T"Y_.6OM6KF+"+LXP_;UU:6XY$K'UN^Q[BP"05&amp;6F]Y^162HWDV#63@'0506P]1&gt;5$VQOI*V1.VYHL%$NA?WW&amp;&lt;&lt;)/NM25W(Y@_Z=$4[;4D];D$Y;$^@K`&gt;&lt;K@N&gt;KP.:K0V?KX6;K8Z@0ZU7FX2JT:\0*?_@^8M^PLO^Y^@XZ&lt;X$T_8YZXXZ;D@[0VM/J@_B&lt;.2HX2_&gt;MQT2X]!C"GW&gt;!!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*7!!!*Q(C=\:1^&lt;BN"$%9`"3H3KF&gt;B[1K]1!K&gt;))"/9)"85'OEM:IULMQG"V#:6F=A-!=Q&gt;!76#[23XH,(BAU96B-$#?!:=8]_=MCX-[/2KHW20ON]K1VD;]/Q'&amp;ZLE\_V.CQ7`7'I8WPV80YWPF&lt;!Z+J\7@F&lt;GW))G-;X^M*`;@SL^6`YX_,8G_X$`_(`P`U8'D%X&amp;Y0?O5GT)M53#]QRK[]\*XKC*XKC*XKC"XKA"XKA"XKA/\KD/\KD/\KD'\KB'\KB'\KB6U=8ON#&amp;TKQER:.#3&gt;)E12)-CJ*,QJ0Q*$Q*$[^+?"+?B#@B38A)5=+4]#1]#5`#QT!F0!F0QJ0Q*$SE+J+MDAZ0QE.["4Q"4]!4]!1]F&amp;4!%Q!%R9,%12)Q&amp;$C$BY!HY!FY?&amp;4!%`!%0!&amp;0Q).&lt;!5`!%`!%0!%01WJ7IGD'DAY0;?4Q/$Q/D]0D]*";$I`$Y`!Y0!Y0Z?4Q/$Q/B&amp;0131[#H%&amp;/A00C]$A]X/4Q/$Q/D]0D]/#K&amp;@+;G:&amp;G\/DQ'$Q'D]&amp;D]"A]J*$"9`!90!;0Q5.;'4Q'D]&amp;D]"A]F*,"9`!90!;)5:4S-J):!YUA1T"Y_.6OM6KF+"+LXP_;UU:6XY$K'UN^Q[BP"05&amp;6F]Y^162HWDV#63@'0506P]1&gt;5$VQOI*V1.VYHL%$NA?WW&amp;&lt;&lt;)/NM25W(Y@_Z=$4[;4D];D$Y;$^@K`&gt;&lt;K@N&gt;KP.:K0V?KX6;K8Z@0ZU7FX2JT:\0*?_@^8M^PLO^Y^@XZ&lt;X$T_8YZXXZ;D@[0VM/J@_B&lt;.2HX2_&gt;MQT2X]!C"GW&gt;!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.1.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Public" Type="Folder">
